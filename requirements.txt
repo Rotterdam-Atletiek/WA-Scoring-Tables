@@ -1,0 +1,2 @@
+tabula-py # This needs a Java install and JAVA_HOME environment variable set correctly
+PyMuPDF

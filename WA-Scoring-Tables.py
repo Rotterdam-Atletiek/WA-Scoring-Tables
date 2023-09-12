@@ -42,9 +42,10 @@ def read_pdf(filename: str, output_prefix: str):
                     result_lookup[gender][key] = value
     pdf_document.close()
 
-    # Reverse the table to get the lookup from result to points
-    for event_name, event_dict in result_lookup['men'].items():
-        points_lookup['men'][event_name] = {v: k for k, v in event_dict.items() if v != '-'}
+    for gender in result_lookup.keys():
+        # Reverse the table to get the lookup from result to points
+        for event_name, event_dict in result_lookup[gender].items():
+            points_lookup[gender][event_name] = {v: k for k, v in event_dict.items() if v != '-'}
 
     with open('output/' + output_prefix + '_men_result_lookup.json', 'w') as json_file:
         json.dump(result_lookup['men'], json_file)

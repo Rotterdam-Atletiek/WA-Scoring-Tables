@@ -2,6 +2,10 @@
 
 This Python script reads PDF files from the input directory and extracts all lookup tables, saving them as JSON files in the output directory.
 
+## Scoring Tables Source
+
+The World Athletics Scoring Tables can be downloaded from the [official WA website](https://worldathletics.org/about-iaaf/documents/technical-information) under the **Scoring Tables** tab. The 2022 tables are already included in this repo.
+
 ## Prerequisites
 
 Before using this tool, please make sure you have the following prerequisites installed on your system:

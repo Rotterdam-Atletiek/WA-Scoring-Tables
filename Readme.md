@@ -33,7 +33,7 @@ python WA-Scoring-Tables.py
 ```
 2. The script will process the PDF files, extract lookup tables, and save them as JSON files in the `output` directory.
 
-3. You can now access the extracted data in JSON format for further use or analysis. The data is structures as ```points['event']['result']``` or ```result['event']['points']```
+3. You can now access the extracted data in JSON format for further use or analysis. The data is structured as ```points['event']['result']``` or ```result['event']['points']```. Events are named exactly as they occur in the input PDF.
 
 4. Keep in mind that not all possible results have a points count associated with them. So when using the points_lookup with a certain result, there might not be an anwser. You'll need to implement finding the closest valid result yourself.
 

@@ -66,7 +66,5 @@ def read_pdf(filename: str, output_prefix: str):
 
 
 if __name__ == '__main__':
-    print('\n\n========== Loading Indoor Tables ==========\n\n')
-    read_pdf('WA-Scoring-Tables-2022-Indoor.pdf', 'indoor')
-    print('\n\n========== Loading Outdoor Tables ==========\n\n')
-    read_pdf('WA-Scoring-Tables-2022-Outdoor.pdf', 'outdoor')
+    print('\n\n========== Loading Tables ==========\n\n')
+    read_pdf('WA-Scoring-Tables-2025.pdf', '2025')

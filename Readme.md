@@ -4,13 +4,14 @@ This Python script reads PDF files from the input directory and extracts all loo
 
 ## Scoring Tables Source
 
-The World Athletics Scoring Tables can be downloaded from the [official WA website](https://worldathletics.org/about-iaaf/documents/technical-information) under the **Scoring Tables** tab. The 2022 tables are already included in this repo.
+The World Athletics Scoring Tables can be downloaded from the [official WA website](https://worldathletics.org/about-iaaf/documents/technical-information) under the **Scoring Tables** tab. The 2022 tables are already included in this repo as well as the updated tables from **January 2025**.
 
 ## Prerequisites
 
 Before using this tool, please make sure you have the following prerequisites installed on your system:
 
-- **Java**: You need Java installed on your machine. Make sure your `JAVA_HOME` environment variable is correctly set.
+- **Python**
+- **Java**: You need Java JDK installed on your machine. Make sure java is added to you `PATH` by testing `java --version`
 
 ## Installation
 
